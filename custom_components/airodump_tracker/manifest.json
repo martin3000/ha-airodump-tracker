@@ -4,5 +4,6 @@
   "documentation": "https://github.com/xumxum/ha-airodump-tracker",
   "requirements": [],
   "dependencies": [],
-  "codeowners": []
+  "codeowners": [],
+  "version": "1.0.0"
 }
