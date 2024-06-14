@@ -70,8 +70,9 @@ class AirodumpDeviceScanner(DeviceScanner):
 
     def __init__(self, config):
         """Initialize the scanner."""
-        self.exclude = config[CONF_EXCLUDE]
-        self.mash_devices = config[CONF_MASH_DEVICES]
+        # self.exclude = config[CONF_EXCLUDE]
+        # self.mash_devices = config[CONF_MASH_DEVICES]
+        self.mash_devices = []
 
         #devices found on our last scan
         self.devices_found = []
